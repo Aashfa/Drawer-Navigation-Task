@@ -84,7 +84,7 @@ const FormScreen = () => {
           <Checkbox 
             value={game1Checked} 
             onValueChange={setGame1Checked} 
-            color={game1Checked ? '#6200ee' : undefined}
+            color={game1Checked ? '#2d69e1ff' : undefined}
           />
           <Text style={styles.checkboxLabel}>Game 1</Text>
         </View>
@@ -93,7 +93,7 @@ const FormScreen = () => {
           <Checkbox 
             value={game2Checked} 
             onValueChange={setGame2Checked} 
-            color={game2Checked ? '#6200ee' : undefined}
+            color={game2Checked ? '#2d69e1ff' : undefined}
           />
           <Text style={styles.checkboxLabel}>Game 2</Text>
         </View>
@@ -108,7 +108,7 @@ const FormScreen = () => {
         <Button 
           title="Submit" 
           onPress={handleSubmit} 
-          color="#6200ee"
+          color="#2d69e1ff"
         />
       </View>
     </View>
